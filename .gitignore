@@ -1,0 +1,23 @@
+# 1) Secrets (never upload)
+.env
+
+# 2) Virtual environments (never upload)
+virtual_environment/
+
+# 3) Local database (local only)
+db.sqlite3
+
+# 4) User uploaded files (local only; later we use cloud storage)
+media/
+
+# 5) Python cache files (auto-generated)
+__pycache__/
+*.pyc
+
+# 6) Django collected static (auto-generated)
+staticfiles/
+
+# 7) Editor config (optional)
+.vscode/
+.idea/
+.DS_Store
